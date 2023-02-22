@@ -1,0 +1,94 @@
+@import "reset.css";
+
+canvas {
+  width: 800px;
+  height: 800px;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+body {
+  display: flex;
+  gap: 40px;
+  justify-content: center;
+  align-items: flex-start;
+  background-color: gainsboro;
+  padding: 20px;
+}
+
+.color-option {
+  width: 50px;
+  height: 50px;
+  cursor: pointer;
+  border-radius: 50%;
+  border: 2px solid white;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+.input-box {
+  display: flex;
+  flex-direction: column;
+  height: 800px;
+  justify-content: space-between;
+  align-items: center;
+  width: 250px;
+  gap: 20px;
+}
+
+.color-box {
+  height: 800px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+#color {
+  width: 200px;
+  height: 200px;
+}
+
+#line-width,
+#font-size-box {
+  width: 200px;
+}
+
+#file {
+  display: none;
+}
+
+#text {
+  all: unset;
+  width: 100%;
+  padding: 15px 0;
+  border-radius: 10px;
+  text-align: center;
+  background-color: rgb(255, 255, 255);
+  font-weight: 500;
+}
+
+#text::placeholder {
+  text-align: center;
+}
+
+.buttton-style,
+button {
+  all: unset;
+  width: 100%;
+  padding: 15px 0;
+  border-radius: 10px;
+  text-align: center;
+  background-color: cornflowerblue;
+  color: white;
+  font-weight: 500;
+}
+
+label {
+  width: 100%;
+  padding: 15px 0;
+  border-radius: 10px;
+  text-align: center;
+  background-color: cornflowerblue;
+  color: white;
+  font-weight: 500;
+}
